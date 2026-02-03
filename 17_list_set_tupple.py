@@ -17,5 +17,5 @@
 # 2. .pop()
 # 3. .remove()
 
-# TUPLE = () ordered ad unchangeable. Duplicates OK. Fatser than list.
+# TUPLE = () ordered and unchangeable. Duplicates OK. Fatser than list.
 
