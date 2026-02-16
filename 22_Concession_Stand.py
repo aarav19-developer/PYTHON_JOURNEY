@@ -3,10 +3,10 @@
 menu = {
     "popcorn" :  1.00,
     "hot dog" :  2.00,
-    "Pretzel" :  2.00,
-    "Asst candy" :  1.00,
-    "Soda" :  1.00,
-    "Bottled Water" :  1.00 
+    "pretzel" :  2.00,
+    "asst candy" :  1.00,
+    "soda" :  1.00,
+    "bottled Water" :  1.00 
 }
 
 cart = []
@@ -21,12 +21,14 @@ while True:
     food = input("Select an item ( q to quit): ").lower()
     if food == "q":
         break
-    elif menu.get(food) is not None:
+    elif food in menu:
         cart.append(food)
+    else:
+        print("Item not found")
 
-print("---------------- YOUR ORDER ----------------")
+print("\n---------------- YOUR ORDER ----------------")
 for food in cart:
-    total += menu.get(food)
+    total += menu[food]
     print(food, end=" ")
 
 print()
