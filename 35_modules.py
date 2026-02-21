@@ -1,0 +1,15 @@
+# MODULE:-
+        # A file containing code you want to include in your program 
+        # use 'import' to include a module (built-in or your own) 
+        # useful to break up a large program reusable separet files.
+
+# print(help("modules"))
+# print(help("math"))
+
+# import math
+from math import pi
+
+print(pi)
+
+from math import e
+print(e)
