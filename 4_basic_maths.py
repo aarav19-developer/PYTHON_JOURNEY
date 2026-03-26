@@ -98,8 +98,11 @@ print(s22)
 
 # HYPOTENEUS OF THE RIGHT ANGLE TRIANGLE:-
 base = float(input("Enter the value of base of the right angled triangle: "))
+
 perpendicular = float(input("Enter the value of perpendicular of the right angled triangle: "))
+
 hypoteneus = math.sqrt(pow(base,2) + pow(perpendicular,2))
+
 print(f"The hypoteneus of the right angled triangle is: {round(hypoteneus,2)} cm")
 
 
