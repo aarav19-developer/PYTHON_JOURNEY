@@ -18,6 +18,7 @@
 # print(1 / num)
 
 
+
 try: 
     num = input("Enter a number: ")
     print(1 / num)
